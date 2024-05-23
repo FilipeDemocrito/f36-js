@@ -1,17 +1,33 @@
-let n1 = 25,
-    n2 = 15,
-    n3 = 10;
+/* 
+objetivo: Calcular  amedia de 2 numeros
 
-    //let resultado = n1 + n2 + n3
-   
-    //console.log (resultado)
+1 Pegar os dois numeros
+2 somar os dois numeros
+3 dividir a soma pela quantidade
+ */
 
-//console.log(n1, n2, n3)
+let n1 = 100;
+let n2 = 900;
 
-//soma
+function soma () {
+    return n1 + n2;
+}
+  console.log(n1 + n2);
 
-let numero1 = '100';
-let numero2 = 500 ;
 
-let resultado = numero1 + numero2
-console.log(resultado)
+
+
+
+soma ()
+
+//function media (){
+    
+    console.log(soma () / 2)
+  
+
+
+
+}
+
+media ();
+
